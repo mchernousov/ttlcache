@@ -17,7 +17,7 @@ Note (issue #25): by default, due to historic reasons, the TTL will be reset on 
 
 ## Usage
 
-`go get github.com/jellydator/ttlcache/v2`
+`go get github.com/mchernousov/ttlcache/v2`
 
 You can copy it as a full standalone demo program. The first snippet is basic usage, where the second exploits more options in the cache.
 
@@ -29,7 +29,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jellydator/ttlcache/v2"
+	"github.com/mchernousov/ttlcache/v2"
 )
 
 var notFound = ttlcache.ErrNotFound
@@ -59,7 +59,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jellydator/ttlcache/v2"
+	"github.com/mchernousov/ttlcache/v2"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"sync"
 
 	"github.com/LopatkinEvgeniy/clock"
-	. "github.com/jellydator/ttlcache/v2"
+	. "github.com/mchernousov/ttlcache/v2"
 	"github.com/stretchr/testify/assert"
 )
 
